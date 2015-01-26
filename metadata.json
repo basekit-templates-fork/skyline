@@ -1,9 +1,9 @@
 {
-	"name":"Unknown",
-	"thumbnail":"unknown.png",
-	"screenshot":"unknown.png",
+	"name":"Skyline",
+	"thumbnail":"skyline.png",
+	"screenshot":"skyline.png",
     "templateType":"standard",
-    "tags": { "en": ["business", "busy", "light", "social", "contrast", "space"] },
+    "tags": { "en": ["business", "builder", "construction", "building", "demolition", "clean"] },
     "pageTypes":["home"],
     "colorSwatches":
     {
@@ -46,7 +46,7 @@
     },
     "images":[
         "images/feature-bg.jpg",
-        "images/train-station.jpg"
+        "images/background-image.jpg"
     ],
     "fontSwatch": {
        "title": "Arvo, Georgia, serif",
