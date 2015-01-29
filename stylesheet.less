@@ -201,6 +201,7 @@ footer.template-footer {
 		background-color: hsla(hue(@color-swatch4), saturation(@color-swatch4), lightness(lighten(@color-swatch4,10%)), 0.5); 
 		border: 1px solid darken(@color-swatch1,65%);
 		border-bottom: 0;
+		min-width: 250px;
 		@media @mobile {
 			padding: 7px 10px;
 		}
@@ -208,10 +209,12 @@ footer.template-footer {
 	p, span, .bk-profile-email a, .widget.profile form input {
 		color: @color-swatch1;
 		font-size: 14px;
-		font-family: @font-swatch4-font-family;	
+		font-family: @font-swatch4-font-family;
+		margin: 0px auto;	
 	}
 	.bk-profile-email {
 		line-height: 36px;
+		margin: 0px auto;	
 		@media @mobile {
 			line-height: inherit;
 		}
@@ -220,12 +223,16 @@ footer.template-footer {
 		opacity: 0.7;
 		text-decoration: none;
 	}
+	.map {
+		width: 100%;
+	}
 	// Social Icons
 	.widget.profile .bk-profile-socialicons {
 		display: inline-block;
 		vertical-align: bottom;
 		margin: 0;
 		line-height: 16px;
+		margin: 0px auto;	
 		span a {
 			margin: 0 -6px 0 0;
 			background-color: transparent;
@@ -376,12 +383,16 @@ footer.template-footer {
 		font-weight: @font-swatch4-font-weight;
 		line-height: @font-swatch4-line-height;
 		letter-spacing: @font-swatch4-letter-spacing;
+		min-width: 300px;
 		span {
 			font-size: 12px;
 			color: darken(@color-swatch1,30%);
 			font-weight: 600;
 			letter-spacing: 1px;
 		}
+	}
+	.map {
+		width: 100%;
 	}
 	// Form
 	.widget.profile form {
